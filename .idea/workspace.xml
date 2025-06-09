@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42092c73-8ea7-4433-ab07-953aeb63aaa4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/configs/conturbancd_tscd.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -22,6 +24,63 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RunManager" selected="Python.eval">
+    <configuration name="eval" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ContUrbanCD" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/eval.py" />
+      <option name="PARAMETERS" value="-c conturbancd_sn7 -o output -d $USER_HOME$/datasets/spacenet7" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ContUrbanCD" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\shafner\AppData\Local\Continuum\anaconda3\envs\local3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train.py" />
+      <option name="PARAMETERS" value="-c debug -o output -d $USER_HOME$/datasets/spacenet7" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.train" />
+      <item itemvalue="Python.eval" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.eval" />
+        <item itemvalue="Python.train" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -33,11 +92,70 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718108828280</updated>
-      <workItem from="1718108832718" duration="1919000" />
+      <workItem from="1718108832718" duration="3882000" />
+      <workItem from="1749462072963" duration="8288000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1374" y="440" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1749484686405">
+      <screen x="0" y="0" width="3840" height="1570" />
+    </state>
+    <state x="1374" y="440" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.3840.1570@0.0.3840.1570" timestamp="1749484686405" />
+    <state width="3841" height="443" key="GridCell.Tab.0.bottom" timestamp="1749484761754">
+      <screen x="0" y="0" width="3840" height="1570" />
+    </state>
+    <state width="3841" height="443" key="GridCell.Tab.0.bottom/0.0.3840.1570@0.0.3840.1570" timestamp="1749484761754" />
+    <state width="3841" height="443" key="GridCell.Tab.0.center" timestamp="1749484761754">
+      <screen x="0" y="0" width="3840" height="1570" />
+    </state>
+    <state width="3841" height="443" key="GridCell.Tab.0.center/0.0.3840.1570@0.0.3840.1570" timestamp="1749484761754" />
+    <state width="3841" height="443" key="GridCell.Tab.0.left" timestamp="1749484761754">
+      <screen x="0" y="0" width="3840" height="1570" />
+    </state>
+    <state width="3841" height="443" key="GridCell.Tab.0.left/0.0.3840.1570@0.0.3840.1570" timestamp="1749484761754" />
+    <state width="3841" height="443" key="GridCell.Tab.0.right" timestamp="1749484761754">
+      <screen x="0" y="0" width="3840" height="1570" />
+    </state>
+    <state width="3841" height="443" key="GridCell.Tab.0.right/0.0.3840.1570@0.0.3840.1570" timestamp="1749484761754" />
+    <state width="3841" height="546" key="GridCell.Tab.1.bottom" timestamp="1749484671499">
+      <screen x="0" y="0" width="3840" height="1570" />
+    </state>
+    <state width="3841" height="546" key="GridCell.Tab.1.bottom/0.0.3840.1570@0.0.3840.1570" timestamp="1749484671499" />
+    <state width="3841" height="546" key="GridCell.Tab.1.center" timestamp="1749484671499">
+      <screen x="0" y="0" width="3840" height="1570" />
+    </state>
+    <state width="3841" height="546" key="GridCell.Tab.1.center/0.0.3840.1570@0.0.3840.1570" timestamp="1749484671499" />
+    <state width="3841" height="546" key="GridCell.Tab.1.left" timestamp="1749484671499">
+      <screen x="0" y="0" width="3840" height="1570" />
+    </state>
+    <state width="3841" height="546" key="GridCell.Tab.1.left/0.0.3840.1570@0.0.3840.1570" timestamp="1749484671499" />
+    <state width="3841" height="546" key="GridCell.Tab.1.right" timestamp="1749484671499">
+      <screen x="0" y="0" width="3840" height="1570" />
+    </state>
+    <state width="3841" height="546" key="GridCell.Tab.1.right/0.0.3840.1570@0.0.3840.1570" timestamp="1749484671499" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/train.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/eval.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ContUrbanCD$eval.coverage" NAME="eval Coverage Results" MODIFIED="1749484761746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ContUrbanCD$train.coverage" NAME="train Coverage Results" MODIFIED="1749467610624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

@@ -1,0 +1,13 @@
+_BASE_: "base.yaml"
+SEED: 2
+
+TRAINER:
+  LR: 1e-4
+  BATCH_SIZE: 16
+
+MODEL:
+  EDGE_TYPE: 'dense'
+  TYPE: 'mtunetformer'
+
+DATASET:
+  NAME: 'sn7'

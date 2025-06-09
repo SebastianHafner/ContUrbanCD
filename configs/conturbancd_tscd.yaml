@@ -1,0 +1,17 @@
+_BASE_: "base.yaml"
+SEED: 3
+
+TRAINER:
+  LR: 5e-5
+  BATCH_SIZE: 16
+
+MODEL:
+  EDGE_TYPE: 'dense'
+  TYPE: 'mtunetformer'
+  IN_CHANNELS: 3
+
+DATASET:
+  NAME: 'tscd'
+
+DATALOADER:
+  TIMESERIES_LENGTH: 4
