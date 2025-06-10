@@ -23,7 +23,7 @@ The SpaceNet 7 dataset is available from this [link](https://spacenet.ai/sn7-cha
 
 We use a metadata file (`metadata_conturbancd.json`) that can be downloaded from [here](https://drive.google.com/file/d/1wzRZ9iS2lOu24OArkG5n5tQaNrRQ6As6/view?usp=drive_link) or from this repository. The metadata file should be placed in the root directory of the SpaceNet 7 dataset (see below). 
 
-We also generated raster labels using the code in [this paper](10.1109/IGARSS46834.2022.9883982). The labels can be obtained from [this link]() and should be placed in the respective study site folder.
+We also generated raster labels using the code in [this paper](https://doi.org/10.1109/IGARSS46834.2022.9883982). The labels can be obtained from [this link](https://drive.google.com/file/d/1ZHcZ0qfcymBJ4_hHcpDz6UpwvOiRZccB/view?usp=sharing) and should be placed in the respective study site folder.
 
 The dataset directory should look like this:
 
@@ -72,7 +72,7 @@ spacenet7  # -d should point to this directory
 
 # Running our code
 
-This section provides all the instructions to run our code. If you do not want to train your own models, we also provide [our model weights]() (trained using this code base).
+This section provides all the instructions to run our code. If you do not want to train your own models, we also provide [our model weights](https://drive.google.com/drive/folders/1GA4_GM4li-K8gpCltFjM0x0W46k7iol5?usp=sharing) (trained using this code base).
 
 All scripts (`train.py`, `evaluation.py`, `inference.py`) require three arguments:
 - The config file is specified using `-c`. This repo includes configs for the Strong Baseline and the DisasterAdaptiveNet from our paper. Both networks can be trained on the xView2 split (`*_xview2`) or event-based split (`*event`). 
