@@ -75,9 +75,9 @@ spacenet7  # -d should point to this directory
 This section provides all the instructions to run our code. If you do not want to train your own models, we also provide [our model weights](https://drive.google.com/drive/folders/1GA4_GM4li-K8gpCltFjM0x0W46k7iol5?usp=sharing) (trained using this code base).
 
 All scripts (`train.py`, `evaluation.py`, `inference.py`) require three arguments:
-- The config file is specified using `-c`. This repo includes configs for the Strong Baseline and the DisasterAdaptiveNet from our paper. Both networks can be trained on the xView2 split (`*_xview2`) or event-based split (`*event`). 
-- The output directory is specified using `-o`. We use this directory to store model weights, submission files, and the scores.
-- The dataset directory is specified using `-d`. This directory points to the root folder of the xBD dataset.
+- The config file is specified using `-c`. This repo includes dataset-specific configs for the proposed method. 
+- The output directory is specified using `-o`. We use this directory to store model weights and evaluation and inference outputs.
+- The dataset directory is specified using `-d`. This directory points to the root folder of the dataset.
 
 
 ## Training
